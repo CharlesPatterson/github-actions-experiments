@@ -1,0 +1,29 @@
+{
+  "name": "github-actions-experiments",
+  "version": "1.0.0",
+  "description": "This is a personal repo for testing out some github actions",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --loglevel warn --write \"**/*.{ts,js,json,yaml}\"",
+    "format:check": "prettier --loglevel warn --check \"**/*.{ts,js,json,yaml}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesPatterson/github-actions-experiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlesPatterson/github-actions-experiments/issues"
+  },
+  "homepage": "https://github.com/CharlesPatterson/github-actions-experiments#readme",
+  "dependencies": {
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "@types/yargs": "^17.0.8",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  }
+}
