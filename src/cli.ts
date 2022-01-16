@@ -5,4 +5,7 @@ import { hideBin } from 'yargs/helpers';
 yargs(hideBin(process.argv))
   .commandDir('commands')
   .strict()
+  .example([
+      ['$0 --name John']
+  ])
   .alias({ h: 'help' }).argv;
